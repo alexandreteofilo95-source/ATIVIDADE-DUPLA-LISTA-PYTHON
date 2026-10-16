@@ -13,6 +13,11 @@ numero_vetor.append(26)
 numero_vetor.append(28)
 numero_vetor.append(25)
 numero_vetor.append(30)
+maior = max(numero_vetor)
+menor = min(numero_vetor)
+
 for indice, i in enumerate(numero_vetor, start=1):
     print(f' {indice} dia fez: {i} graus')
+print(f'maior temperatura: {maior}')
+print(f'menor temperatura: {menor}')
     
