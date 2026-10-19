@@ -18,6 +18,8 @@ menor = min(numero_vetor)
 
 for indice, i in enumerate(numero_vetor, start=1):
     print(f' {indice} dia fez: {i} graus')
+    media = 28/7
+print(f'\nmedia dos dias na semana: {media}')
 print(f'maior temperatura: {maior}')
 print(f'menor temperatura: {menor}')
     
