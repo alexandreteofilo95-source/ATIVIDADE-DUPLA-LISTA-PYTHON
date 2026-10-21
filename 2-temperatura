@@ -1,0 +1,25 @@
+import os
+vetor_numero = []
+QUANTIDADE_DE_NUMEROS = 7
+
+
+
+
+
+
+for i in range(QUANTIDADE_DE_NUMEROS):
+    dias = (input("qual o dia da semana? "))
+    temperatura = int(input("qual a temperatura desse dia? "))
+    vetor_numero.append(temperatura)
+
+media = sum(vetor_numero) / 3
+maior= max(vetor_numero)
+menor = min(vetor_numero)
+
+print(f"\nmedia {media}")
+print(f"\ntemperatura maxima da semana: {maior}")
+print(f"\ntemperatura minima da semana: {menor}")
+
+for indice, temperatura in enumerate(vetor_numero, start= 1):
+    print(f"temperaturas {temperatura}")
+
