@@ -22,4 +22,3 @@ for indice, i in enumerate(numero_vetor, start=1):
 print(f'\nmedia dos dias na semana: {media}')
 print(f'maior temperatura: {maior}')
 print(f'menor temperatura: {menor}')
-    
